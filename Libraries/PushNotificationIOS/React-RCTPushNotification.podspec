@@ -3,10 +3,7 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
-require "json"
-
-package = JSON.parse(File.read(File.join(__dir__, "..", "..", "package.json")))
-version = package['version']
+version = '0.62.2'
 
 source = { :git => 'https://github.com/facebook/react-native.git' }
 if version == '1000.0.0'
@@ -25,7 +22,7 @@ Pod::Spec.new do |s|
   s.summary                = "A library for handling push notifications for your app, including permission handling and icon badge number."
   s.homepage               = "http://facebook.github.io/react-native/"
   s.documentation_url      = "https://facebook.github.io/react-native/docs/pushnotificationios"
-  s.license                = package["license"]
+  s.license                = "MIT"
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.compiler_flags         = folly_compiler_flags + ' -Wno-nullability-completeness'

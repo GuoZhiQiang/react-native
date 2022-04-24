@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   s.version                = version
   s.summary                = "The core of React Native."
   s.homepage               = "http://facebook.github.io/react-native/"
-  s.license                = package["license"]
+  s.license                = "MIT"
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.source                 = source
