@@ -7,10 +7,11 @@ version = '0.62.2'
 
 source = { :git => 'https://github.com/GuoZhiQiang/react-native.git', :branch => 'feature-0.62.2' }
 
+# source_files           = "**/*.{h,m}"
+# source_files = File.join('React/Libraries/' + 'Text', source_files)
 
 Pod::Spec.new do |s|
-  source_files           = "**/*.{h,m}"
-  source_files = File.join('React/Libraries/' + 'Text', source_files)
+  
   s.name                   = "React-RCTText"
   s.version                = version
   s.summary                = "A React component for displaying text." 
@@ -20,8 +21,8 @@ Pod::Spec.new do |s|
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.source                 = source
-  s.source_files           = source_files
-  s.preserve_paths         = "package.json", "LICENSE", "LICENSE-docs"
+  s.source_files           = "React/Libraries/Text/**/*.{h,m}"
+  #s.preserve_paths         = "package.json", "LICENSE", "LICENSE-docs"
   s.header_dir             = "RCTText"
 
   s.dependency "React-Core/RCTTextHeaders", version
