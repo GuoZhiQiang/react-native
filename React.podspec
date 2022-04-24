@@ -16,7 +16,7 @@ end
 Pod::Spec.new do |s|
   s.name                   = "React"
   s.version                = version
-  s.summary                = '-'
+  s.summary                = "React podspec"
   s.description            = <<-DESC
                                React Native apps are built using the React JS
                                framework, and render directly to native UIKit
