@@ -3,10 +3,7 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
-require "json"
-
-package = JSON.parse(File.read(File.join(__dir__, "package.json")))
-version = package['version']
+version = '0.62.2'
 
 source = { :git => 'https://github.com/GuoZhiQiang/react-native.git', :branch => 'feature-0.62.2' }
 if version == '1000.0.0'
