@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.source                 = source
-  s.prepare_command        = File.read("../scripts/generate-rncore.sh")
+  s.prepare_command        = File.read("scripts/generate-rncore.sh")
   s.source_files           = "dummyFile.cpp"
   s.library                = "stdc++"
   s.pod_target_xcconfig = { "USE_HEADERMAP" => "YES",
