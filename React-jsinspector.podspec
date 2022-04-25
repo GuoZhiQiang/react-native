@@ -8,7 +8,7 @@ version = '0.62.2'
 source = { :git => 'https://github.com/GuoZhiQiang/react-native.git', :branch => 'feature-0.62.2' }
 
 Pod::Spec.new do |s|
-  s.name                   = "FBLazyVector"
+  s.name                   = "React-jsinspector"
   s.version                = version
   s.summary                = "-"  # TODO
   s.homepage               = "http://facebook.github.io/react-native/"
@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.source                 = source
-  s.source_files           = "**/*.{c,h,m,mm,cpp}"
-  s.header_dir             = "FBLazyVector"
-
+  s.source_files           = "ReactCommon/jsinspector/*.{cpp,h}"
+  s.header_dir             = 'jsinspector'
 end

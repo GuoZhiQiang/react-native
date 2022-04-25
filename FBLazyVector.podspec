@@ -8,7 +8,9 @@ version = '0.62.2'
 source = { :git => 'https://github.com/GuoZhiQiang/react-native.git', :branch => 'feature-0.62.2' }
 
 Pod::Spec.new do |s|
-  s.name                   = "RCTRequired"
+  source_files = "**/*.{c,h,m,mm,cpp}"
+  source_files = File.join('Libraries/' + 'FBLazyVector', source_files)
+  s.name                   = "FBLazyVector"
   s.version                = version
   s.summary                = "-"  # TODO
   s.homepage               = "http://facebook.github.io/react-native/"
@@ -16,6 +18,7 @@ Pod::Spec.new do |s|
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.source                 = source
-  s.source_files           = "**/*.{c,h,m,mm,cpp}"
-  s.header_dir             = "RCTRequired"
+  s.source_files           = source_files
+  s.header_dir             = "FBLazyVector"
+
 end

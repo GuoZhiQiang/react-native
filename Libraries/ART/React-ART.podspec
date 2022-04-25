@@ -7,6 +7,8 @@ version = '0.62.2'
 
 source = { :git => 'https://github.com/GuoZhiQiang/react-native.git', :branch => 'feature-0.62.2' }
 
+# source_files = "**/*.{m}"
+# source_files = File.join('Libraries/' + 'ART', source_files)
 Pod::Spec.new do |s|
   s.name                   = "React-ART"
   s.version                = version
