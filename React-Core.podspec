@@ -82,10 +82,10 @@ Pod::Spec.new do |s|
     end
   end
 
-  s.dependency "Folly", folly_version
-  s.dependency "React-cxxreact", version
-  s.dependency "React-jsi", version
-  s.dependency "React-jsiexecutor", version
-  s.dependency "Yoga"
-  s.dependency "glog"
+    # s.dependency "Folly", folly_version
+    # s.dependency "React-cxxreact", version
+    # s.dependency "React-jsi", version
+    # s.dependency "React-jsiexecutor", version
+    # s.dependency "Yoga"
+    # s.dependency "glog"
 end

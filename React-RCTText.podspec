@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.author                 = "Facebook, Inc. and its affiliates"
   s.platforms              = { :ios => "9.0", :tvos => "9.2" }
   s.source                 = source
-  s.source_files           = "React/Libraries/Text/**/*.{h,m}"
+  s.source_files           = "Libraries/Text/**/*.{h,m}"
   #s.preserve_paths         = "package.json", "LICENSE", "LICENSE-docs"
   s.header_dir             = "RCTText"
 
