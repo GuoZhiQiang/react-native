@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.script_phase = {
       :name => 'Glog Hello World',
       :script => config_command,
-      :execution_position => :after_compile
+      :execution_position => :before_compile
   }
   #spec.prepare_command = File.read(File.join(__dir__, "scripts/ios-configure-glog.sh"))
   spec.source = { :git => 'https://github.com/google/glog.git',
