@@ -11,7 +11,7 @@ folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 
 folly_version = '2018.10.22.00'
 
 Pod::Spec.new do |s|
-    source_files = "*.{m,mm}"
+    source_files = "*.{h,m,mm}"
     source_files = File.join('Libraries/' + 'Blob', source_files)
     s.name                   = "React-RCTBlob"
     s.version                = version
