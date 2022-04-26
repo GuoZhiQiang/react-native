@@ -10,8 +10,14 @@ Pod::Spec.new do |spec|
   spec.homepage = 'https://github.com/google/glog'
   spec.summary = 'Google logging module'
   spec.authors = 'Google'
-
-  spec.prepare_command = File.read(File.join(__dir__, "scripts/ios-configure-glog.sh"))
+  
+  config_command = File.read(File.join(__dir__, "scripts/ios-configure-glog.sh"))
+  spec.script_phase = {
+      :name => 'Glog Hello World',
+      :script => config_command,
+      :execution_position => :after_compile
+  }
+  #spec.prepare_command = File.read(File.join(__dir__, "scripts/ios-configure-glog.sh"))
   spec.source = { :git => 'https://github.com/google/glog.git',
                   :tag => "v#{spec.version}" }
   spec.module_name = 'glog'
