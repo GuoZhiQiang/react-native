@@ -21,7 +21,7 @@
 #import <React/RCTNetworking.h>
 #import <React/RCTUtils.h>
 
-#import "RCTImagePlugins.h"
+#import <React/RCTImagePlugins.h>
 
 using namespace facebook::react;
 

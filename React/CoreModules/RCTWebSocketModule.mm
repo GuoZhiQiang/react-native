@@ -13,8 +13,7 @@
 #import <React/RCTConvert.h>
 #import <React/RCTUtils.h>
 #import <React/RCTSRWebSocket.h>
-
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 @implementation RCTSRWebSocket (React)
 

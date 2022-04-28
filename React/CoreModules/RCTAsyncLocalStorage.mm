@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTAsyncLocalStorage.h"
+#import <React/RCTAsyncLocalStorage.h>
 
 #import <Foundation/Foundation.h>
 
@@ -17,7 +17,7 @@
 #import <React/RCTLog.h>
 #import <React/RCTUtils.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 static NSString *const RCTStorageDirectory = @"RCTAsyncLocalStorage_V1";
 static NSString *const RCTManifestFileName = @"manifest.json";

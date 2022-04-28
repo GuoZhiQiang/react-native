@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTAlertManager.h"
+#import <React/RCTAlertManager.h>
 
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
 #import <RCTTypeSafety/RCTConvertHelpers.h>
@@ -14,7 +14,7 @@
 #import <React/RCTLog.h>
 #import <React/RCTUtils.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 @implementation RCTConvert (UIAlertViewStyle)
 

@@ -17,7 +17,7 @@
 
 #import <ReactCommon/RCTTurboModule.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 #if RCT_DEV // Debug executors are only supported in dev mode
 

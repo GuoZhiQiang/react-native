@@ -8,7 +8,7 @@
 #import <React/RCTDataRequestHandler.h>
 #import <ReactCommon/RCTTurboModule.h>
 
-#import "RCTNetworkPlugins.h"
+#import <React/RCTNetworkPlugins.h>
 
 @interface RCTDataRequestHandler() <RCTTurboModule>
 @end

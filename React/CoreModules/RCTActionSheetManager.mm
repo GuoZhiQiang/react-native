@@ -16,7 +16,7 @@
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
 #import <RCTTypeSafety/RCTConvertHelpers.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 using namespace facebook::react;
 

@@ -11,7 +11,7 @@
 
 // OSS-compatibility layer
 
-#import "RCTSettingsPlugins.h"
+#import <React/RCTSettingsPlugins.h>
 
 #import <string>
 #import <unordered_map>

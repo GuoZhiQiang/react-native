@@ -14,7 +14,7 @@
 #import "RCTEventDispatcher.h"
 #import "RCTLog.h"
 #import "RCTRootViewInternal.h"
-#import "RCTTVNavigationEventEmitter.h"
+#import <React/RCTTVNavigationEventEmitter.h>
 #import "RCTUtils.h"
 #import "RCTView.h"
 #import "UIView+React.h"

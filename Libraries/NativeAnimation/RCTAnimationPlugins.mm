@@ -11,7 +11,7 @@
 
 // OSS-compatibility layer
 
-#import "RCTAnimationPlugins.h"
+#import <React/RCTAnimationPlugins.h>
 
 #import <string>
 #import <unordered_map>

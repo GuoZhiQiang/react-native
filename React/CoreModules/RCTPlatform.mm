@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTPlatform.h"
+#import <React/RCTPlatform.h>
 
 #import <UIKit/UIKit.h>
 
@@ -13,7 +13,7 @@
 #import <React/RCTUtils.h>
 #import <React/RCTVersion.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 using namespace facebook::react;
 

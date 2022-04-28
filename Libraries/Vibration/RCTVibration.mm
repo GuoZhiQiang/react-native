@@ -11,7 +11,7 @@
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
 #import <React/RCTLog.h>
 
-#import "RCTVibrationPlugins.h"
+#import <React/RCTVibrationPlugins.h>
 
 @interface RCTVibration() <NativeVibrationSpec>
 @end

@@ -5,13 +5,13 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTSourceCode.h"
+#import <React/RCTSourceCode.h>
 
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
 
 #import <React/RCTBridge.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 using namespace facebook::react;
 

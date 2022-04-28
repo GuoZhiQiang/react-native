@@ -17,7 +17,7 @@
 #import <React/RCTReloadCommand.h>
 #import <React/RCTUtils.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 #if RCT_DEV_MENU
 

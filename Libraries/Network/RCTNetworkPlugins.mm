@@ -11,7 +11,7 @@
 
 // OSS-compatibility layer
 
-#import "RCTNetworkPlugins.h"
+#import <React/RCTNetworkPlugins.h>
 
 #import <string>
 #import <unordered_map>

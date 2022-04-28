@@ -19,7 +19,7 @@
 
 #import <React/RCTHTTPRequestHandler.h>
 
-#import "RCTNetworkPlugins.h"
+#import <React/RCTNetworkPlugins.h>
 
 typedef RCTURLRequestCancellationBlock (^RCTHTTPQueryResult)(NSError *error, NSDictionary<NSString *, id> *result);
 

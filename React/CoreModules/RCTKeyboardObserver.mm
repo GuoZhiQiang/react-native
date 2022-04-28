@@ -5,12 +5,12 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTKeyboardObserver.h"
+#import <React/RCTKeyboardObserver.h>
 
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
 #import <React/RCTEventDispatcher.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 static NSDictionary *RCTParseKeyboardNotification(NSNotification *notification);
 

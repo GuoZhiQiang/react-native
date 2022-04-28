@@ -11,7 +11,7 @@
 
 // OSS-compatibility layer
 
-#import "RCTVibrationPlugins.h"
+#import <React/RCTVibrationPlugins.h>
 
 #import <string>
 #import <unordered_map>

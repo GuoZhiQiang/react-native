@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTRedBox.h"
+#import <React/RCTRedBox.h>
 
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
 #import <React/RCTBridge.h>
@@ -21,7 +21,7 @@
 
 #import <objc/runtime.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 #if RCT_DEV_MENU
 

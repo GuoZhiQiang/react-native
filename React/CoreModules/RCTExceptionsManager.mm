@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTExceptionsManager.h"
+#import <React/RCTExceptionsManager.h>
 
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
 #import <React/RCTConvert.h>
@@ -15,7 +15,7 @@
 #import <React/RCTReloadCommand.h>
 #import <React/RCTRootView.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 @interface RCTExceptionsManager() <NativeExceptionsManagerSpec>
 

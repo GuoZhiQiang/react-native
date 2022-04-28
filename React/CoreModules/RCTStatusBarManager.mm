@@ -5,8 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTStatusBarManager.h"
-#import "CoreModulesPlugins.h"
+#import <React/RCTStatusBarManager.h>
+#import <React/CoreModulesPlugins.h>
 
 #import <React/RCTEventDispatcher.h>
 #import <React/RCTLog.h>

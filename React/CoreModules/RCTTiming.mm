@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTTiming.h"
+#import <React/RCTTiming.h>
 
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
 
@@ -16,7 +16,7 @@
 #import <React/RCTLog.h>
 #import <React/RCTUtils.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 static const NSTimeInterval kMinimumSleepInterval = 1;
 

@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTAppState.h"
+#import <React/RCTAppState.h>
 
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
 #import <React/RCTAssert.h>
@@ -13,7 +13,7 @@
 #import <React/RCTEventDispatcher.h>
 #import <React/RCTUtils.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 static NSString *RCTCurrentAppState()
 {

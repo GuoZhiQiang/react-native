@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTAccessibilityManager.h"
+#import <React/RCTAccessibilityManager.h>
 
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
 #import <React/RCTUIManager.h>
@@ -14,7 +14,7 @@
 #import <React/RCTEventDispatcher.h>
 #import <React/RCTLog.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 NSString *const RCTAccessibilityManagerDidUpdateMultiplierNotification = @"RCTAccessibilityManagerDidUpdateMultiplierNotification";
 

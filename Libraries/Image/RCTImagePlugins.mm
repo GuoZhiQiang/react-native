@@ -11,7 +11,7 @@
 
 // OSS-compatibility layer
 
-#import "RCTImagePlugins.h"
+#import <React/RCTImagePlugins.h>
 
 #import <string>
 #import <unordered_map>

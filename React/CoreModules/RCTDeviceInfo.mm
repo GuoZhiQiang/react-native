@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTDeviceInfo.h"
+#import <React/RCTDeviceInfo.h>
 
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
 #import <React/RCTAccessibilityManager.h>
@@ -15,7 +15,7 @@
 #import <React/RCTUIUtils.h>
 #import <React/RCTUtils.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 using namespace facebook::react;
 

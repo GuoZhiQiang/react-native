@@ -7,10 +7,10 @@
 
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
 
-#import "RCTI18nManager.h"
+#import <React/RCTI18nManager.h>
 #import <React/RCTI18nUtil.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 using namespace facebook::react;
 

@@ -13,7 +13,7 @@
 #import <React/RCTUtils.h>
 #import <React/RCTLog.h>
 
-#import "RCTLinkingPlugins.h"
+#import <React/RCTLinkingPlugins.h>
 
 static NSString *const kOpenURLNotification = @"RCTOpenURLNotification";
 

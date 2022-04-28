@@ -11,7 +11,7 @@
 
 // OSS-compatibility layer
 
-#import "RCTLinkingPlugins.h"
+#import <React/RCTLinkingPlugins.h>
 
 #import <string>
 #import <unordered_map>

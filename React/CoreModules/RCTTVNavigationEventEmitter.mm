@@ -5,10 +5,10 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTTVNavigationEventEmitter.h"
+#import <React/RCTTVNavigationEventEmitter.h>
 
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 NSString *const RCTTVNavigationEventNotification = @"RCTTVNavigationEventNotification";
 

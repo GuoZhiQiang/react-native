@@ -11,7 +11,7 @@
 
 #import <RCTTypeSafety/RCTConvertHelpers.h>
 
-#import "RCTAnimationPlugins.h"
+#import <React/RCTAnimationPlugins.h>
 
 typedef void (^AnimatedOperation)(RCTNativeAnimatedNodesManager *nodesManager);
 

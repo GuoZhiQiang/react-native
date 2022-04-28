@@ -13,7 +13,7 @@
 #import <React/RCTUtils.h>
 #import <ReactCommon/RCTTurboModule.h>
 
-#import "RCTImagePlugins.h"
+#import <React/RCTImagePlugins.h>
 
 @interface RCTLocalAssetImageLoader() <RCTTurboModule>
 @end

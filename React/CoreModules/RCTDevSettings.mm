@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTDevSettings.h"
+#import <React/RCTDevSettings.h>
 
 #import <objc/runtime.h>
 
@@ -20,7 +20,7 @@
 
 #import <React/RCTDevMenu.h>
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 static NSString *const kRCTDevSettingProfilingEnabled = @"profilingEnabled";
 static NSString *const kRCTDevSettingHotLoadingEnabled = @"hotLoadingEnabled";

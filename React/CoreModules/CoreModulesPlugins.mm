@@ -11,7 +11,7 @@
 
 // OSS-compatibility layer
 
-#import "CoreModulesPlugins.h"
+#import <React/CoreModulesPlugins.h>
 
 #import <string>
 #import <unordered_map>

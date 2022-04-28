@@ -17,7 +17,7 @@
 #import <React/RCTUtils.h>
 #import <UIKit/UIKit.h>
 
-#import "RCTImagePlugins.h"
+#import <React/RCTImagePlugins.h>
 
 @interface RCTImageEditingManager() <NativeImageEditorSpec>
 @end
