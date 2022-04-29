@@ -13,7 +13,7 @@
 #import <React/RCTEventDispatcher.h>
 #import <React/RCTUtils.h>
 
-#import "RCTSettingsPlugins.h"
+#import <React/RCTSettingsPlugins.h>
 
 @interface RCTSettingsManager() <NativeSettingsManagerSpec>
 @end
