@@ -9,7 +9,7 @@ source = { :git => 'https://github.com/GuoZhiQiang/react-native.git', :branch =>
 
 Pod::Spec.new do |spec|
   spec.name = 'Yoga'
-  spec.version = '1.14.0'
+  spec.version = version
   spec.license =  { :type => 'MIT' }
   spec.homepage = 'https://yogalayout.com'
   spec.documentation_url = 'https://yogalayout.com/docs/'
