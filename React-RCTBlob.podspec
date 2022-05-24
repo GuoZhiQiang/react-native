@@ -6,7 +6,7 @@
 version = '0.62.2'
 
 # source = { :git => 'https://github.com/GuoZhiQiang/react-native.git', :branch => 'feature-0.62.2' }
-source = { 'http' : 'http://ice.etuhu.cn:9081/frameworks/ReactNative/react-native/0.62.2-static/react-native.zip' }
+source = { :http => 'http://ice.etuhu.cn:9081/frameworks/ReactNative/react-native/0.62.2-static/react-native.zip' }
 
 folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32'
 folly_version = '2018.10.22.00'
